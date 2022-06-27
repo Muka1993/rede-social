@@ -794,7 +794,7 @@
 	 font-family: "Source Sans Pro", sans-serif;
 }
 
-/* LUZ DOS STATUS COM ANIMAÇÃO */
+/* LUZ DOS STATUS */
 
     .green {
 	 background-color: #7fd222;
@@ -802,7 +802,8 @@
 	 height: 8px;
 	 border-radius: 50%;
 	 margin-left: auto;
-	 animation: green 2s infinite ease-in-out alternate;
+	 box-shadow: 0px 0px 15px #7fd222;
+	 
  }
 
      .offline {
@@ -818,22 +819,8 @@
 	 height: 8px;
 	 border-radius: 50%;
 	 margin-left: auto;
-	 animation: red 2s infinite ease-in-out alternate;
-
-	}
-
-	@keyframes green{
-		0% {
-			box-shadow: 0px 0px 10px #7fd222;
-	
-		}
-	}
-
-	@keyframes red{
-		0% {
-			box-shadow: 0px 0px 10px #ff1100;
-	
-		}
+	 box-shadow: 0px 0px 15px #ff1100;
+	 
 	}
 
  .contacts .username {
